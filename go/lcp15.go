@@ -4,7 +4,7 @@
 @File : threeSum
 @Software: GoLand
 */
-package lettcode
+package _go
 
 import "sort"
 

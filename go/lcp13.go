@@ -50,7 +50,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 
 链接：https://leetcode-cn.com/problems/roman-to-integer
 */
-package lettcode
+package _go
 
 func RomanToInt(s string) int {
 	lookup := make(map[string]int)

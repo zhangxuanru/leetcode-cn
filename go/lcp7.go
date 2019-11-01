@@ -24,7 +24,7 @@
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/reverse-integer
 */
-package lettcode
+package _go
 
 func Reverse(x int) int {
 	if x < 0 {

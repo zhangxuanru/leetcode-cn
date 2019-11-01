@@ -4,7 +4,7 @@
 @File : strStr
 @Software: GoLand
 */
-package lettcode
+package _go
 
 /*
 实现 strStr() 函数。

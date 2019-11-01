@@ -4,7 +4,7 @@
 @File : mergeTwoLists
 @Software: GoLand
 */
-package lettcode
+package _go
 
 type ListNode struct {
 	Val  int

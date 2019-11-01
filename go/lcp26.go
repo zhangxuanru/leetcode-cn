@@ -4,7 +4,7 @@
 @File : removeDuplicates
 @Software: GoLand
 */
-package lettcode
+package _go
 
 import "fmt"
 

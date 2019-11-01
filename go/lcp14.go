@@ -25,7 +25,7 @@
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/longest-common-prefix
 */
-package lettcode
+package _go
 
 func LongestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
