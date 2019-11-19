@@ -21,6 +21,7 @@ import "fmt"
 C 是一个单字符，且保证是字符串 S 里的字符。
 S 和 C 中的所有字母均为小写字母。
 
+
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/shortest-distance-to-a-character
 */
