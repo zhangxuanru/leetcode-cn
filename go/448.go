@@ -43,8 +43,32 @@ func FindDisappearedNumbers(nums []int) []int {
 		}
 	}
 
-	fmt.Println(nums)
-	fmt.Println(intRet)
+	//	fmt.Println(nums)
+	//fmt.Println(intRet)
+	return intRet
+}
+
+func FindDisappearedNumbers_two(nums []int) []int {
+	exists := make([]bool, len(nums)+len(nums))
+	var intRet []int
+	max := 0
+	for _, v := range nums {
+		if v > max {
+			max = v
+		}
+		exists[v] = true
+	}
+	//todo 明天提交测试一下
+	for i, v := range exists {
+		if v == false && len(intRet) == 0 && i > max {
+			intRet = append(intRet, i)
+			break
+		}
+		if v == false && i > 0 && i < max {
+			intRet = append(intRet, i)
+			continue
+		}
+	}
 	return intRet
 }
 
