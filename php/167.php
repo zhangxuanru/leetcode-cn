@@ -52,3 +52,4 @@ $numbers = [2, 7, 11, 15];
 $target = 9;
 $arr = $class->twoSum($numbers,$target);
 print_r($arr);
+
