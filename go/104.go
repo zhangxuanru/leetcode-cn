@@ -65,3 +65,13 @@ func MaxDepth2(root *TreeNode) int {
 	max := math.Max(float64(MaxDepth2(root.Left)), float64(MaxDepth2(root.Right))) + 1
 	return int(max)
 }
+
+func MaxDepth3(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+	left := MaxDepth3(root.Left)
+	right := MaxDepth3(root.Right)
+	max := math.Max(float64(left), float64(right)) + 1
+	return int(max)
+}
